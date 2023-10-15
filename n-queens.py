@@ -69,5 +69,6 @@ def display_n_queens_gui(n):
     solve_and_display_n_queens(n, canvas)
     window.mainloop()
 
+n = int(input("Enter Board Size : "))
 n = 8  # Change this to the desired board size
 display_n_queens_gui(n)
